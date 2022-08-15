@@ -1,51 +1,58 @@
----
-layout: page
-title: Getting started with Reverie
-permalink: /getting-started/
----
+<div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          <article class="page">
 
-### Step 1) Fork Reverie to your User Repository
+  <h1>Getting started with Reverie</h1>
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+  <div class="entry">
+    <h3 id="step-1-fork-reverie-to-your-user-repository">Step 1) Fork Reverie to your User Repository</h3>
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+<p>Fork <a href="https://github.com/amitmerchant1990/reverie">this repository</a>, then rename the repository to <code class="language-plaintext highlighter-rouge">yourgithubusername.github.io</code>.</p>
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+<p>Alternatively, you can use <a href="https://github.com/amitmerchant1990/reverie/generate">Use this template</a> button if you want to create a repository with a clean commit history which will use Reverie as a template.</p>
 
-### Step 2) Customize and view your site
+<p>Your Jekyll blog will often be viewable immediately at <a href="https://yourgithubusername.github.io">https://yourgithubusername.github.io</a> (if it’s not, you can often force it to build by completing step 2)</p>
 
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
+<h3 id="step-2-customize-and-view-your-site">Step 2) Customize and view your site</h3>
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+<p>Enter your site name, description, avatar and many other options by editing the <code class="language-plaintext highlighter-rouge">_config.yml</code> file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.</p>
 
-### Step 3) Publish your first blog post
+<p>Making a change to <code class="language-plaintext highlighter-rouge">_config.yml</code> (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <a href="https://yourgithubusername.github.io">https://yourgithubusername.github.io</a> - if not, give it ten minutes as GitHub suggests and it’ll appear soon.</p>
 
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+<h3 id="step-3-publish-your-first-blog-post">Step 3) Publish your first blog post</h3>
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+<p>Create a new file called <code class="language-plaintext highlighter-rouge">/_posts/2019-2-13-Hello-World.md</code> to publish your first blog post. That’s all you need to do to publish your first blog post! This <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> might come in handy while writing the posts.</p>
 
-## Using Categories in Reverie
+<blockquote>
+  <p>You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in <code class="language-plaintext highlighter-rouge">/_posts/</code> to create new content. Just make sure to include the <a href="http://jekyllrb.com/docs/frontmatter/">front-matter</a> block at the top of each new blog post and make sure the post’s filename is in this format: year-month-day-title.md</p>
+</blockquote>
 
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
+<h2 id="using-categories-in-reverie">Using Categories in Reverie</h2>
 
-For adding single category:
+<p>You can categorize your content based on <code class="language-plaintext highlighter-rouge">categories</code> in Reverie. For this, you just need to add <code class="language-plaintext highlighter-rouge">categories</code> in front matter like below:</p>
 
-```md
-categories: JavaScript
-```
+<p>For adding single category:</p>
 
-For adding multiple categories:
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>categories: JavaScript
+</code></pre></div></div>
 
-```md
-categories: [PHP, Laravel]
-```
+<p>For adding multiple categories:</p>
 
-The contegorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>categories: [PHP, Laravel]
+</code></pre></div></div>
 
-## RSS
+<p>The contegorized content can be shown over this URL: <a href="https://yourgithubusername.github.io/categories/">https://yourgithubusername.github.io/categories/</a></p>
 
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed).
+<h2 id="rss">RSS</h2>
 
-## Sitemap
+<p>The generated <a href="https://en.wikipedia.org/wiki/RSS">RSS feed</a> of your blog can be found at <a href="https://yourgithubusername.github.io/feed">https://yourgithubusername.github.io/feed</a>. You can see the example RSS feed over <a href="https://www.amitmerchant.com/reverie/feed">here</a>.</p>
 
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+<h2 id="sitemap">Sitemap</h2>
+
+<p>The generated sitemap of your blog can be found at <a href="https://yourgithubusername.github.io/sitemap">https://yourgithubusername.github.io/sitemap</a>. You can see the example sitemap feed over <a href="https://www.amitmerchant.com/reverie/sitemap">here</a>.</p>
+
+  </div>
+</article>
+
+        </div>
+      </div>
